@@ -9,7 +9,7 @@ struct StartScreen: View {
                 Color(BLUE_COLOR)
                     .ignoresSafeArea()
                 VStack {
-                    Image("fire")
+                    Image("logo_clear")
                         .resizable()
                         .frame(width: 250, height: 250, alignment: .center)
                         .aspectRatio(contentMode: .fill)

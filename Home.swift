@@ -10,7 +10,7 @@ struct Home: View {
             
             ScrollView {
                 VStack {
-                    Text("Did you know about these different fire extenguishers?")
+                    Text("Did you know about these different fire extinguishers?")
                         .font(.system(size: 40))
                         .foregroundColor(.white)
                         .multilineTextAlignment(.center)
@@ -18,7 +18,7 @@ struct Home: View {
                     
                     // Dry Powder
                     HStack {
-                        Image("fire")
+                        Image("powder")
                             .resizable()
                             .frame(width: 200, height: 200, alignment: .center)
                             .cornerRadius(20)
@@ -51,7 +51,7 @@ struct Home: View {
                     
                     // Foam Spray
                     HStack {
-                        Image("fire")
+                        Image("foam")
                             .resizable()
                             .frame(width: 200, height: 200, alignment: .center)
                             .cornerRadius(20)
@@ -85,7 +85,7 @@ struct Home: View {
                     
                     // CO2 Spray
                     HStack {
-                        Image("fire")
+                        Image("co2")
                             .resizable()
                             .frame(width: 200, height: 200, alignment: .center)
                             .cornerRadius(20)
@@ -118,7 +118,7 @@ struct Home: View {
                     }
                     // Water Spray
                     HStack {
-                        Image("fire")
+                        Image("water")
                             .resizable()
                             .frame(width: 200, height: 200, alignment: .center)
                             .cornerRadius(20)
