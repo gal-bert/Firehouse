@@ -16,7 +16,11 @@ struct StartScreen: View {
                         .cornerRadius(20)
                         .padding(.bottom).padding(.bottom)
                     
-                    Text("Firehouse")
+                    Text("Firehouse!")
+                        .foregroundColor(.orange)
+                        .font(.system(size: 40))
+                    
+                    Text("Know your extinguishers")
                         .foregroundColor(.orange)
                         .font(.system(size: 40))
                         .padding(.bottom)
